@@ -25,7 +25,7 @@ now = date.today()
 now = str(now)
 today_date = now.split("-")[2]
 
-if today_date == "20":
+if today_date == "01":
     client.messages.create(body=message,
                            from_=from_whatsapp_number,
                            to=to_whatsapp_number)
